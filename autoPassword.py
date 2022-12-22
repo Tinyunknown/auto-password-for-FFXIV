@@ -2,7 +2,7 @@
 import pyautogui
 
 #sets up variables for your password
-password = "pNAs7GEG2eLrs9T"
+password = "your password"
 
 #finds where the password box is and stores it in a variable
 if pyautogui.locateCenterOnScreen('password.png') == pyautogui.ImageNotFoundException():
