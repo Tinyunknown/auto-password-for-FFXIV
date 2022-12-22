@@ -13,7 +13,7 @@ else:
 #moves the mouse to the password box, clicks it, and enters the password
 pyautogui.moveTo(x, y)
 pyautogui.click()
-pyautogui.write('pNAs7GEG2eLrs9T')
+pyautogui.write(password)
 
 #gets the coords for the login button, then clicks it
 x, y = pyautogui.locateCenterOnScreen('login.png')
